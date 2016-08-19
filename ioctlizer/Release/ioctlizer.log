@@ -1,0 +1,132 @@
+﻿Build started 5/24/2016 4:14:31 PM.
+     1>Project "c:\Users\shay\documents\visual studio 2015\Projects\ioctlizer\ioctlizer\ioctlizer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\ioctlizer.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(66): warning C4005: 'STATUS_WAIT_0' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2210) : see previous definition of 'STATUS_WAIT_0'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(212): warning C4005: 'STATUS_ABANDONED_WAIT_0' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2211) : see previous definition of 'STATUS_ABANDONED_WAIT_0'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(235): warning C4005: 'STATUS_USER_APC' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2212) : see previous definition of 'STATUS_USER_APC'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(262): warning C4005: 'STATUS_TIMEOUT' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2213) : see previous definition of 'STATUS_TIMEOUT'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(271): warning C4005: 'STATUS_PENDING' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2214) : see previous definition of 'STATUS_PENDING'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(682): warning C4005: 'DBG_EXCEPTION_HANDLED' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2215) : see previous definition of 'DBG_EXCEPTION_HANDLED'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(691): warning C4005: 'DBG_CONTINUE' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2216) : see previous definition of 'DBG_CONTINUE'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(766): warning C4005: 'STATUS_SEGMENT_NOTIFICATION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2217) : see previous definition of 'STATUS_SEGMENT_NOTIFICATION'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(929): warning C4005: 'STATUS_FATAL_APP_EXIT' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2218) : see previous definition of 'STATUS_FATAL_APP_EXIT'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1258): warning C4005: 'DBG_TERMINATE_THREAD' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2219) : see previous definition of 'DBG_TERMINATE_THREAD'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1267): warning C4005: 'DBG_TERMINATE_PROCESS' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2220) : see previous definition of 'DBG_TERMINATE_PROCESS'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1276): warning C4005: 'DBG_CONTROL_C' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2221) : see previous definition of 'DBG_CONTROL_C'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1285): warning C4005: 'DBG_PRINTEXCEPTION_C' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2222) : see previous definition of 'DBG_PRINTEXCEPTION_C'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1294): warning C4005: 'DBG_RIPEXCEPTION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2223) : see previous definition of 'DBG_RIPEXCEPTION'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1303): warning C4005: 'DBG_CONTROL_BREAK' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2224) : see previous definition of 'DBG_CONTROL_BREAK'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1312): warning C4005: 'DBG_COMMAND_EXCEPTION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2225) : see previous definition of 'DBG_COMMAND_EXCEPTION'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1344): warning C4005: 'STATUS_GUARD_PAGE_VIOLATION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2226) : see previous definition of 'STATUS_GUARD_PAGE_VIOLATION'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1355): warning C4005: 'STATUS_DATATYPE_MISALIGNMENT' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2227) : see previous definition of 'STATUS_DATATYPE_MISALIGNMENT'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1366): warning C4005: 'STATUS_BREAKPOINT' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2228) : see previous definition of 'STATUS_BREAKPOINT'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1377): warning C4005: 'STATUS_SINGLE_STEP' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2229) : see previous definition of 'STATUS_SINGLE_STEP'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1680): warning C4005: 'STATUS_LONGJUMP' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2230) : see previous definition of 'STATUS_LONGJUMP'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1707): warning C4005: 'STATUS_UNWIND_CONSOLIDATE' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2231) : see previous definition of 'STATUS_UNWIND_CONSOLIDATE'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1784): warning C4005: 'DBG_EXCEPTION_NOT_HANDLED' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2232) : see previous definition of 'DBG_EXCEPTION_NOT_HANDLED'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1913): warning C4005: 'STATUS_ACCESS_VIOLATION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2233) : see previous definition of 'STATUS_ACCESS_VIOLATION'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1922): warning C4005: 'STATUS_IN_PAGE_ERROR' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2234) : see previous definition of 'STATUS_IN_PAGE_ERROR'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1940): warning C4005: 'STATUS_INVALID_HANDLE' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2235) : see previous definition of 'STATUS_INVALID_HANDLE'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(1985): warning C4005: 'STATUS_INVALID_PARAMETER' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2236) : see previous definition of 'STATUS_INVALID_PARAMETER'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(2085): warning C4005: 'STATUS_NO_MEMORY' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2237) : see previous definition of 'STATUS_NO_MEMORY'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(2142): warning C4005: 'STATUS_ILLEGAL_INSTRUCTION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2238) : see previous definition of 'STATUS_ILLEGAL_INSTRUCTION'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(2223): warning C4005: 'STATUS_NONCONTINUABLE_EXCEPTION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2239) : see previous definition of 'STATUS_NONCONTINUABLE_EXCEPTION'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(2232): warning C4005: 'STATUS_INVALID_DISPOSITION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2240) : see previous definition of 'STATUS_INVALID_DISPOSITION'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(3155): warning C4005: 'STATUS_ARRAY_BOUNDS_EXCEEDED' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2241) : see previous definition of 'STATUS_ARRAY_BOUNDS_EXCEEDED'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(3165): warning C4005: 'STATUS_FLOAT_DENORMAL_OPERAND' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2242) : see previous definition of 'STATUS_FLOAT_DENORMAL_OPERAND'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(3175): warning C4005: 'STATUS_FLOAT_DIVIDE_BY_ZERO' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2243) : see previous definition of 'STATUS_FLOAT_DIVIDE_BY_ZERO'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(3185): warning C4005: 'STATUS_FLOAT_INEXACT_RESULT' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2244) : see previous definition of 'STATUS_FLOAT_INEXACT_RESULT'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(3195): warning C4005: 'STATUS_FLOAT_INVALID_OPERATION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2245) : see previous definition of 'STATUS_FLOAT_INVALID_OPERATION'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(3205): warning C4005: 'STATUS_FLOAT_OVERFLOW' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2246) : see previous definition of 'STATUS_FLOAT_OVERFLOW'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(3215): warning C4005: 'STATUS_FLOAT_STACK_CHECK' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2247) : see previous definition of 'STATUS_FLOAT_STACK_CHECK'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(3225): warning C4005: 'STATUS_FLOAT_UNDERFLOW' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2248) : see previous definition of 'STATUS_FLOAT_UNDERFLOW'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(3235): warning C4005: 'STATUS_INTEGER_DIVIDE_BY_ZERO' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2249) : see previous definition of 'STATUS_INTEGER_DIVIDE_BY_ZERO'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(3245): warning C4005: 'STATUS_INTEGER_OVERFLOW' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2250) : see previous definition of 'STATUS_INTEGER_OVERFLOW'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(3255): warning C4005: 'STATUS_PRIVILEGED_INSTRUCTION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2251) : see previous definition of 'STATUS_PRIVILEGED_INSTRUCTION'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(4201): warning C4005: 'STATUS_STACK_OVERFLOW' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2252) : see previous definition of 'STATUS_STACK_OVERFLOW'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(4718): warning C4005: 'STATUS_DLL_NOT_FOUND' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2253) : see previous definition of 'STATUS_DLL_NOT_FOUND'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(4747): warning C4005: 'STATUS_ORDINAL_NOT_FOUND' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2254) : see previous definition of 'STATUS_ORDINAL_NOT_FOUND'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(4757): warning C4005: 'STATUS_ENTRYPOINT_NOT_FOUND' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2255) : see previous definition of 'STATUS_ENTRYPOINT_NOT_FOUND'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(4767): warning C4005: 'STATUS_CONTROL_C_EXIT' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2256) : see previous definition of 'STATUS_CONTROL_C_EXIT'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(4845): warning C4005: 'STATUS_DLL_INIT_FAILED' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2257) : see previous definition of 'STATUS_DLL_INIT_FAILED'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(7319): warning C4005: 'STATUS_FLOAT_MULTIPLE_FAULTS' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2258) : see previous definition of 'STATUS_FLOAT_MULTIPLE_FAULTS'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(7329): warning C4005: 'STATUS_FLOAT_MULTIPLE_TRAPS' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2259) : see previous definition of 'STATUS_FLOAT_MULTIPLE_TRAPS'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(7461): warning C4005: 'STATUS_REG_NAT_CONSUMPTION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2260) : see previous definition of 'STATUS_REG_NAT_CONSUMPTION'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(8435): warning C4005: 'STATUS_HEAP_CORRUPTION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2261) : see previous definition of 'STATUS_HEAP_CORRUPTION'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(8663): warning C4005: 'STATUS_STACK_BUFFER_OVERRUN' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2262) : see previous definition of 'STATUS_STACK_BUFFER_OVERRUN'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(8790): warning C4005: 'STATUS_INVALID_CRUNTIME_PARAMETER' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2263) : see previous definition of 'STATUS_INVALID_CRUNTIME_PARAMETER'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(8853): warning C4005: 'STATUS_ASSERTION_FAILURE' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2264) : see previous definition of 'STATUS_ASSERTION_FAILURE'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(12894): warning C4005: 'STATUS_SXS_EARLY_DEACTIVATION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2266) : see previous definition of 'STATUS_SXS_EARLY_DEACTIVATION'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntstatus.h(12903): warning C4005: 'STATUS_SXS_INVALID_DEACTIVATION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(2267) : see previous definition of 'STATUS_SXS_INVALID_DEACTIVATION'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\ioctlizer.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ioctlizer.cpp
+         ioctlizer.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\shay\documents\visual studio 2015\Projects\ioctlizer\Release\ioctlizer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\shay\documents\visual studio 2015\Projects\ioctlizer\Release\ioctlizer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\shay\documents\visual studio 2015\Projects\ioctlizer\Release\ioctlizer.lib" /MACHINE:X86 /SAFESEH Release\ioctlizer.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         ioctlizer.vcxproj -> c:\users\shay\documents\visual studio 2015\Projects\ioctlizer\Release\ioctlizer.exe
+     1>Done Building Project "c:\Users\shay\documents\visual studio 2015\Projects\ioctlizer\ioctlizer\ioctlizer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.54
